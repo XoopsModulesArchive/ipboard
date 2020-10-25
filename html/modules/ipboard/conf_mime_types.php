@@ -1,0 +1,36 @@
+<?php
+
+$mime_types = [
+    // mime         					 allow post  img           type           allow avatar
+
+    'application/pdf' => [1, 'pdf.gif', 'PDF Document'],
+'image/x-png' => [1, 'quicktime.gif', 'PNG Image'],
+'video/vivo' => [1, 'win_player.gif', 'VIVO Movie'],
+'application/x-compress' => [1, 'zip.gif', 'Compressed File'],
+'video/x-msvideo' => [1, 'win_player.gif', 'MS Video'],
+'text/html' => [1, 'html.gif', 'HTML Page'],
+'audio/x-pn-realaudio' => [1, 'real_audio.gif', 'Real Audio File'],
+'image/gif' => [1, 'gif.gif', 'GIF Image', 1],
+'video/mpeg' => [1, 'quicktime.gif', 'MPEG Video'],
+'image/ico' => [1, 'gif.gif', 'Icon File'],
+'application/x-tar' => [1, 'zip.gif', 'TAR Ball'],
+'image/x-MS-bmp' => [1, 'bmp.gif', 'BMP Image'],
+'image/tiff' => [1, 'quicktime.gif', 'TIFF Image'],
+'text/richtext' => [1, 'txt.gif', 'Rich Text'],
+'audio/x-realaudio' => [1, 'realaudio.gif', 'Real Audio'],
+'application/mac-binhex40' => [1, 'stuffit.gif', 'Mac Binary'],
+'audio/x-aiff' => [1, 'quicktime.gif', 'AIFF File'],
+'application/x-gzip' => [1, 'zip.gif', 'GZIP File'],
+'application/zip' => [1, 'zip.gif', 'ZIP File'],
+'application/postscript' => [1, 'postscript.gif', 'Postscript'],
+'application/msword' => [1, 'word.gif', 'MS Word doc'],
+'video/quicktime' => [1, 'quicktime.gif', 'QuickTime Movie'],
+'application/powerpoint' => [1, 'apps.gif', 'PowerPoint Doc'],
+'audio/x-wav' => [1, 'sound.gif', 'WAV File'],
+'audio/x-mpeg' => [1, 'mp3.gif', 'MPEG Audio'],
+'image/jpeg' => [1, 'jpeg.gif', 'JPEG Image', 1],
+'application/x-zip-compressed' => [1, 'zip.gif', 'ZIP File'],
+'application/octet-stream' => [1, 'quicktime.gif', 'OCTET Stream'],
+'text/plain' => [1, 'text.gif', 'Text File'],
+'image/pjpeg' => [1, 'jpeg.gif', 'JPEG Image', 1],
+];
